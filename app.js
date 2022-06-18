@@ -3,7 +3,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-this.MURL = 'https://8b25-2600-8805-9909-6000-e80f-cd21-cb86-3c35.ngrok.io/'
+this.MURL = 'CHANGE_TO_URL'
 
 mongoose.connect(require('./config.json').u).then(() => console.log('db connected!!!'));
 
