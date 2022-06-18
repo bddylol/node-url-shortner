@@ -20,7 +20,7 @@ app.post('/makeu', async (req,res) => {
   let redirect = req.body['redirect'];
   let id = Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5);
 
-  if(!redirect) return res.send(`Malformed URL! Example: <code><pre>${this.MURL}makeu?redirect=https://example.com</pre></code>`)
+  if(!redirect) return res.send(`Malformed URL!`)
 
   const um = await new URLModel({
     redirectid: id,
