@@ -38,4 +38,4 @@ app.get('/u/:code', async (req, res) => {
   res.redirect(`${found.redirect}`)
 })
 
-app.listen(42069, () => console.log('server onlien'))
+app.listen(9932, () => console.log('server onlien'))

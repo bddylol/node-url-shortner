@@ -1,4 +1,14 @@
 {
+  "name": "node-url-shortner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/buddy-codes/node-url-shortner.git",
+  "author": "bddy",
+  "license": "MIT",
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "express": "^4.18.1",
     "mongoose": "^6.4.0"
